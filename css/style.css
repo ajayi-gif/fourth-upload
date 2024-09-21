@@ -1,0 +1,123 @@
+.nav a{
+    color: rgb(104, 178, 243);
+}
+
+.jumbotron h1{
+font-size: 60px;
+}
+
+.jumbotron p{
+    font-size: 30px;
+}
+
+.maincolor{
+    background-color: blueviolet;
+    color: white;
+}
+
+.maincolor:hover{
+background-color: rgba(118, 32, 190);
+color: red;
+}
+
+.jumbotron{
+    background-image: url(../images/download.jpg);
+   /* animation-name: myanim;
+    animation-duration: 2s;
+    position: relative;  */ 
+}
+
+.titleAnim{
+    animation-name: myanim;
+    animation-duration: 2s;
+    position: relative;
+
+}
+
+@keyframes myanim{
+    0%{opacity: 0.1; top: 0px}
+    100%{opacity: 1.0; top: 100px}
+}    
+
+.container-fluid .jumbotron{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.features i:hover{
+color: rgb(255, 255, 255);
+background-color: rgb(41, 41, 173);
+}
+
+.features i{
+color: rgb(41, 41, 173); 
+font-size: 50px;  
+margin: 40px 40px 20px 40px;  
+padding: 40px;
+border: 1px solid;
+border-color:rgb(41, 41, 173) ;
+width: 150px;
+height: 150px;
+border-radius: 100px;
+}
+
+.features p{
+font-weight: bold;
+}
+
+.testimonysection{
+    background-color: darkgrey;
+}
+.cta{
+    background-color: rgb(232, 233, 220);
+}
+.footer{
+    background-color: rgb(71, 74, 75);
+}
+.footer .nav-link{
+    background-color: rgb(39, 41, 39); 
+
+    color: white;
+    text-decoration: white;
+    margin: 2px 0px 0px 0px;
+}
+
+
+.footer .nav-link:hover{
+    background-color: rgb(15, 125, 235); 
+}
+
+.recentcourses .left{
+    background-color: rgb(39, 41, 39); 
+    border-right: 5px solid rgb(84, 84, 235) ;
+}
+
+.recentcourses .left:hover{
+    background-color: rgb(58, 15, 177); 
+
+}
+
+
+.recentcourses .bottom{
+    color: gray;
+}
+
+.recentcourses .top{
+    border-bottom: 1px solid gray;
+}
+
+.copyright{
+    background-color: rgb(68, 71, 68); 
+    border-top :1px solid rgb(170, 170, 170);
+    
+}
+.courses img:hover{
+    opacity: 0.6;
+    transform: translate(0px, -8px);
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+/*.features div{
+    display: inline-block;
+}*/
+
